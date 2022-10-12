@@ -100,19 +100,7 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 
 -- --------------------------------------------------------
 
---
--- Estructura de tabla para la tabla `notas`
---
 
-CREATE TABLE `notas` (
-  `id_nota` int(11) NOT NULL,
-  `titulo` varchar(255) DEFAULT NULL,
-  `mensaje` varchar(500) DEFAULT NULL,
-  `id_user` int(11) DEFAULT NULL,
-  `id_grupo` int(11) DEFAULT NULL,
-  `estado` int(11) DEFAULT NULL,
-  `fecha_creacion` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
